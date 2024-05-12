@@ -46,7 +46,7 @@ class AdminController extends Controller
       }
       else {
 
-          return redirect()->back()->with('error','Your Credentials are Not Correct...hello keyur');
+          return redirect()->back()->with('error','Your Credentials are Not Correct...');
 
           // How to Push changes on Github...
 
